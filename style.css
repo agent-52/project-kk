@@ -50,6 +50,9 @@ a{
     text-decoration: none;
     color: black;
 }
+a.instname{
+    color: pink;
+}
 a:hover{
     color: rgb(255, 16, 240);
 }
@@ -112,7 +115,7 @@ main{
     right: 0px;
 
 }
-.heading1{
+.heading1,.heading2{
     font-size: 7rem;
     color: pink;
     font-family: first-font;
@@ -120,7 +123,88 @@ main{
     margin-bottom:8rem;
     text-align: center;
 }
+div.heading2{
+    margin-bottom: 3rem;
+}
 .box2{
     display: flex;
     flex-direction: column;
+    background-image: url(./images/black7.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.aboutmebox{
+    display: flex;
+    margin-left: 5rem;
+    gap: 5rem;
+    
+}
+.myname{
+    font-size: 4rem;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    text-align: center;
+}
+.shortintro{
+    font-size: xx-large;
+    margin-top: 1rem;
+}
+.shortintro1{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.educationbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myinformation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+   
+}
+
+.eduheading{
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.college{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.davvlogo{
+    width: 50px
+}
+.collegetext{
+    font-size: x-large;
+}
+.mediabox{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.socialname{
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    margin-bottom: 1.5rem;
+
+}
+
+.socialicons{
+    width: 70px
+}
+.photosection{
+    width: 30vw;
+    height: 60vh;
+    margin-top: 5rem;
+
 }
